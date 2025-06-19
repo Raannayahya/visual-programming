@@ -1,0 +1,15 @@
+using System;
+	public class Explicit_Type_Casting
+	{
+		public static void Main(string[] args)
+		{
+			int a=10;
+			long b=50;
+			float c=50.02f;
+			double d=50.000000022;
+			a=Convert.ToInt32(d);
+			b=Convert.ToInt64(c);
+			Console.WriteLine(a);
+			Console.WriteLine(b);
+		}
+	}

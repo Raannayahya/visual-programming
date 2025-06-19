@@ -13,7 +13,7 @@ public class HelloWorld
         }
         
         string personName; //Global Variable
-        personName="Noor ul Hassan";
+        personName="aqsa sajjad";
         Console.WriteLine(personName);
         age();
     }

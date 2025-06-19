@@ -1,0 +1,20 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    
+    {
+        void age()
+        {
+            int personAge;//Local Variable
+            personAge=25;
+            Console.WriteLine(personAge);
+        }
+        
+        string personName; //Global Variable
+        personName="Noor ul Hassan";
+        Console.WriteLine(personName);
+        age();
+    }
+}
